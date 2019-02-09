@@ -12,7 +12,7 @@ describe('Chain locat ors demo', () => {
 
         await browser.get('http://juliemr.github.io/protractor-demo/');
         await calc.firstEditBox.sendKeys("3");
-        await calc.secondEditBox.sendKeys("2");
+        await calc.secondEditBox.sendKeys("5");
         await calc.go.click();
 
         calc.getResult.getText().then(function (text) {

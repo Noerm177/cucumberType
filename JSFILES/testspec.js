@@ -16,7 +16,7 @@ describe('Chain locat ors demo', () => {
         let calc = new calculator_1.calculator();
         yield protractor_1.browser.get('http://juliemr.github.io/protractor-demo/');
         yield calc.firstEditBox.sendKeys("3");
-        yield calc.secondEditBox.sendKeys("2");
+        yield calc.secondEditBox.sendKeys("5");
         yield calc.go.click();
         calc.getResult.getText().then(function (text) {
             console.log(text);
