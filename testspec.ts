@@ -19,12 +19,6 @@ describe('Chain locat ors demo', () => {
             console.log(text);
         })
 
-        
-
-
-        //	element(by.model("operator")).element(by.css("option:nth-child(4)")).click();
-
-
     });
 
     it('Angular hompe page', async () => 
